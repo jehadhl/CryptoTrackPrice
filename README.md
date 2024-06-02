@@ -1,46 +1,27 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Cryro Price Tracker App
 
-## Available Scripts
+#Overview
+This application is a real-time cryptocurrency price tracker built using Socket.io for real-time communication and Redux for state management. It allows users to monitor the prices of various cryptocurrencies as they fluctuate in real-time.
 
-In the project directory, you can run:
+#Features
+Real-Time Updates: Utilizes webSocket to provide real-time updates on cryptocurrency prices.
+Track Multiple Cryptocurrencies: Users can track the prices of multiple cryptocurrencies simultaneously.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#Technologies Used
+React: Frontend development framework for building user interfaces.
+Redux: State management library for managing application state.
+Cryptocurrency API: Integration with a cryptocurrency API to fetch real-time price data.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+#Installation
+Install dependencies: npm install
+Start the development server: npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+#Usage
+Upon launching the application, users are presented with a list of cryptocurrencies and their current prices.
+Users can select specific cryptocurrencies to track.
+The application updates the prices in real-time, reflecting any changes instantly.
+Users can customize their tracking preferences and view historical data if available.
