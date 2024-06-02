@@ -18,7 +18,7 @@ This application is a real-time cryptocurrency price tracker built using Socket.
 2. Start the development server: `npm start`
 
 ## Usage
-Upon launching the application, users are presented with a list of cryptocurrencies and their current prices.
-Users can select specific cryptocurrencies to track.
-The application updates the prices in real-time, reflecting any changes instantly.
-Users can customize their tracking preferences and view historical data if available.
+1. Upon launching the application, users are presented with a list of cryptocurrencies and their current prices.
+2. Users can select specific cryptocurrencies to track.
+3. The application updates the prices in real-time, reflecting any changes instantly.
+4. Users can customize their tracking preferences and view historical data if available.
