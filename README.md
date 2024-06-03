@@ -11,11 +11,11 @@ This application is a real-time cryptocurrency price tracker built using Socket.
 ## Technologies Used
 - React: Frontend development framework for building user interfaces.
 - Redux: State management library for managing application state.
-- Cryptocurrency API: Integration with a cryptocurrency API to fetch real-time price data.
+- Cryptocurrency API: Integration with a cryptocurrency API to fetch real-time price data (https://api.coingecko.com ,https://coincap.io).
 
 ## Installation
-1. Install dependencies: `npm install`
-2. Start the development server: `npm start`
+1. Install dependencies: `yarn install`
+2. Start the development server: `yarn start`
 
 ## Usage
 1. Upon launching the application, users are presented with a list of cryptocurrencies and their current prices.
