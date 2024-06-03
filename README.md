@@ -2,7 +2,7 @@
 # Crypto Price Tracker App
 
 ## Overview
-This application is a real-time cryptocurrency price tracker built using Socket.io for real-time communication and Redux for state management. It allows users to monitor the prices of various cryptocurrencies as they fluctuate in real-time.
+This application is a real-time cryptocurrency price tracker built using webSocket for real-time communication and Redux for state management. It allows users to monitor the prices of various cryptocurrencies as they fluctuate in real-time.
 
 ## Features
 - Real-Time Updates: Utilizes webSocket to provide real-time updates on cryptocurrency prices.
