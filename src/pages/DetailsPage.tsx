@@ -9,11 +9,16 @@ import useFetchCryptoDetails from "../hook/useCryptoDetails";
 import Loading from "../components/Loading/Loading";
 
 const DetailsPage = () => {
-  const id: any = useParams();
-  useWebSocket();
-  const { historicalData, selectedCrypto, loading, error }: any =
-    useFetchCryptoDetails(id.symbol);
+  const id: any = useParams(); 
+   
+  const { historicalData, selectedCrypto, loading, error }: any = useFetchCryptoDetails(id.symbol);
   const data = useSelector((state) => selectCryptoById(state, id.symbol));
+
+
+  console.log(data)
+
+
+  useWebSocket();
 
   if (loading) return <Loading />;
   if (error) return <div className="text-white">Error: {error}</div>;

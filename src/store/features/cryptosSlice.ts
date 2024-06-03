@@ -31,7 +31,7 @@ const cryptosSlice = createSlice({
   name: "cryptos",
   initialState,
   reducers: {
-    updatePrices: (state, action) => {
+    updatePrices: (state : any, action : any) => {
       const newData = state.data.map((crypto: any) => {
         const newPrice =
           action.payload[crypto.id.replace("binancecoin", "binance-coin")] ||
@@ -62,7 +62,7 @@ const cryptosSlice = createSlice({
       state.data = newData;
     },
   },
-  extraReducers: (builder) => {
+  extraReducers: (builder : any) => {
     builder
       .addCase(fetchCryptos.pending, (state: any) => {
         state.loading = true;

@@ -14,7 +14,7 @@ const Navbar = () => {
   console.log(themeMode);
   return (
     <div className="text-white max-w-[1440px] mx-auto justify-between flex items-center py-4 w-[90vw]">
-      <div className="">test</div>
+      <div className=""></div>
 
       <div className="gap-2 flex ">
         <button

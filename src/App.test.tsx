@@ -31,11 +31,10 @@ describe("useFetchCryptoDetails", () => {
   it("fetches crypto details successfully", async () => {
     const id = "bitcoin";
     const mockDetailsResponse = {
-      data: { name: "Bitcoin" /* other crypto details */ },
+      data: { name: "Bitcoin"},
     };
     const mockMarketChartResponse = {
       data: {
-        /* mock market chart data */
       },
     };
 

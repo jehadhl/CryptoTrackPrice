@@ -10,6 +10,10 @@ const HomePage = () => {
 
   useWebSocket();
 
+  if(error ) {
+    return (<TableSketlon />)
+  }
+
   return (
     <div className="max-w-[1440px] mx-auto  pt-20">
       <h1 className="text-white text-6xl font-bold text-center">
